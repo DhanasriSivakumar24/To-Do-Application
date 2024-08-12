@@ -1,0 +1,70 @@
+body
+{
+    background-color: #ececec; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#centerElement{
+    position: relative;
+    width:25%;
+    height:33% ;
+    margin: 40px auto; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px #0000001a;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#font{
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+#fontpara{
+    font-family: 'Poppins';
+    font-size: 16px;
+    color:#8e8e8e;
+}
+#userList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#userList li {
+    background-color: #f8f9fa;
+    padding:10px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+#addbutton {
+    background-color: #cbed9b;
+    border-radius: 4px;
+    padding: 5px 10px;
+    transition: background-color 0.2s;
+}
+
+#addbutton:hover {
+        background-color: #aed776;
+}
+
+.deleteButton {
+    background-color: #cbed9b;
+    border-radius: 4px;
+    padding: 5px 10px;
+    transition: background-color 0.2s;
+}
+
+.deleteButton:hover {
+    background-color: #aed776;
+}
+#inputField{
+    width: 80%;
+    height: 30px;
+}
